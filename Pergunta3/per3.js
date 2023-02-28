@@ -1,4 +1,4 @@
-const pJson = require('./per3.json');//Necesserio ter Node instalado
+const pJson = require('./dados.json');//Necesserio ter Node instalado
 const express = require('express');
 const app =  express();
 console.log(pJson.mesX[0].dia);
